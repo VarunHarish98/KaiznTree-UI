@@ -1,0 +1,9 @@
+export const heading = "Item Dashboard"
+export const subHeading = "All Items"
+export const totalCategory =  "Total Categories"
+export const totalItems = "Total Items"
+export const newItemButton = "NEW ITEM CATEGORY"
+export const redImage = "https://www.iconsdb.com/icons/preview/red/circle-xxl.png"
+export const greenImage = "https://www.iconsdb.com/icons/preview/green/circle-xxl.png"
+export const newButtonItem = "NEW ITEM"
+export const optionsButton = "OPTIONS" //Should be drop-down with disabled state

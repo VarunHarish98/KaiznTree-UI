@@ -1,0 +1,103 @@
+[
+    {
+      "sku": "MI-EBAY-001",
+      "name": "NY-Test4",
+      "category": "Furniture",
+      "tags": ["Amazon", "Twitter", "Furniture"],
+      "stock_status": {
+        "total_stock": 20,
+        "available_stock": 10
+      }
+    },
+    {
+      "sku": "MI-EBAY-002",
+      "name": "NY-Test5",
+      "category": "Electronics",
+      "tags": ["Amazon", "Electronics"],
+      "stock_status": {
+        "total_stock": 0,
+        "available_stock": 10
+      }
+    },
+    {
+      "sku": "MI-EBAY-003",
+      "name": "NY-Test6",
+      "category": "Clothing",
+      "tags": ["Amazon", "Twitter", "Clothing"],
+      "stock_status": {
+        "total_stock": 18000,
+        "available_stock": 900
+      }
+    },
+    {
+      "sku": "MI-EBAY-004",
+      "name": "NY-Test7",
+      "category": "Twitter",
+      "tags": ["Amazon", "Twitter", "Kitchen"],
+      "stock_status": {
+        "total_stock": 22000,
+        "available_stock": 1100
+      }
+    },
+    {
+      "sku": "MI-EBAY-005",
+      "name": "NY-Test8",
+      "category": "Beauty",
+      "tags": ["Amazon", "Beauty"],
+      "stock_status": {
+        "total_stock": 17000,
+        "available_stock": 850
+      }
+    },
+    {
+      "sku": "MI-EBAY-006",
+      "name": "NY-Test9",
+      "category": "Toys & Games",
+      "tags": ["Amazon", "Toys", "Games"],
+      "stock_status": {
+        "total_stock": 21000,
+        "available_stock": 1050
+      }
+    },
+    {
+      "sku": "MI-EBAY-007",
+      "name": "NY-Test10",
+      "category": "Sports & Outdoors",
+      "tags": ["Amazon", "Sports", "Outdoors"],
+      "stock_status": {
+        "total_stock": 19000,
+        "available_stock": 950
+      }
+    },
+    {
+      "sku": "MI-EBAY-008",
+      "name": "NY-Test11",
+      "category": "Books",
+      "tags": ["Amazon", "Books"],
+      "stock_status": {
+        "total_stock": 16000,
+        "available_stock": 800
+      }
+    },
+    {
+      "sku": "MI-EBAY-009",
+      "name": "NY-Test12",
+      "category": "Health & Personal Care",
+      "tags": ["Amazon", "Health", "Personal Care"],
+      "stock_status": {
+        "total_stock": 23000,
+        "available_stock": 1150
+      }
+    },
+    {
+      "sku": "MI-EBAY-010",
+      "name": "NY-Test13",
+      "category": "Furniture",
+      "tags": ["Amazon", "Automotive"],
+      "stock_status": {
+        "total_stock": 20000,
+        "available_stock": 1000
+      }
+    }
+]
+  
