@@ -1,7 +1,9 @@
-// Sidebar.js
 import React from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate from react-router-dom
 
 const Sidebar = () => {
+  const navigate = useNavigate(); // Initialize useNavigate hook
+
   // Sample data for sidebar menu items
   const menuItems = [
     { id: 1, label: "Home", icon: "home" },
@@ -20,11 +22,24 @@ const Sidebar = () => {
     { id: 14, label: "My Profile", icon: "my_profile" }
   ];
 
+  // Function to handle menu item click
+  const handleMenuItemClick = (label) => {
+    if (label === "Logout") {
+      // Redirect to '/'
+      navigate("/");
+    }
+    // Add more logic for other menu items if needed
+  };
+
   return (
     <div className="bg-white text-black h-full w-40">
       <ul>
         {menuItems.map((item) => (
-          <li key={item.id} className="flex items-center p-4 hover:bg-slate-200 cursor-pointer">
+          <li
+            key={item.id}
+            className="flex items-center p-4 hover:bg-slate-200 cursor-pointer"
+            onClick={() => handleMenuItemClick(item.label)} // Call handleMenuItemClick on click
+          >
             <span className="mr-2">{item.label}</span>
             {/* //TO_DO Need to add images */}
           </li>
